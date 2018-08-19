@@ -25,6 +25,10 @@
             <groupId>com.van</groupId>
             <artifactId>appender-log4j2</artifactId>
             <version>2.0</version>
+            <!-- Added by Bob Zhang -->
+            <scope>system</scope>
+            <systemPath>/root/log4j-s3-search/appender-log4j2/target/log4j-s3-search-log4j2.jar</systemPath>
+            <!-- Added by Bob Zhang -->
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.logging.log4j</groupId>

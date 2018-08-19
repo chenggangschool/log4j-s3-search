@@ -35,11 +35,11 @@ To run the sample program **appender-log4j-sample**:
 ```
 cd appender-log4j-sample
 ```
-Modify `src\main\resources\log4j.properties` to use _your S3 bucket, path, and region_.
+Modify `src/main/resources/log4j.properties` to use _your S3 bucket, path, and region_.
 ```
 mvn clean install
 mvn assembly:assembly
-java -cp target\log4j-s3-search-log4j-sample-jar-with-dependencies.jar com.van.example.Main
+java -cp target/log4j-s3-search-log4j-sample-jar-with-dependencies.jar com.van.example.Main
 ```
 
 ### Log4j 2.x Example
@@ -48,10 +48,10 @@ To run the sample program **appender-log4j2-sample**:
 ```
 cd appender-log4j2-sample
 ```
-Modify `src\main\resources\log4j2.xml` to use _your S3 bucket, path, and region_.
+Modify `src/main/resources/log4j2.xml` to use _your S3 bucket, path, and region_.
 ```
 mvn clean install
-java -cp target\log4j-s3-search-log4j2-sample.jar com.van.example.Main
+java -cp target/log4j-s3-search-log4j2-sample.jar com.van.example.Main
 ```
 
 _There is currently some complication w/ Log4j 2 such that the packaging is done differently than 
